@@ -11,7 +11,7 @@ luis_key = os.getenv("LUIS_API_KEY")
 luis_url = os.getenv("LUIS_REQUEST")
 
 weather_key = os.getenv("WEATHER_API_KEY")
-print(weather_key)
+
 learners = ["Thienvu","Marouan","Armand","Gabriel","Merouane","Aissa","David","Cinthya","Cyrille","Rayanne","William","Thomas","Kamel","Nolan","Pierre-Loic"]
 key = os.getenv("DISCORD_KEY")
 client = discord.Client()
