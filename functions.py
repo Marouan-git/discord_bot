@@ -11,8 +11,6 @@ def get_intent(key, url, query):
     response = requests.get(url + params)
 
     data = response.json()
-
-    
     intents = data['prediction']['intents']
     score_max = 0
     if 'ville' in data['prediction']['entities'].keys():
